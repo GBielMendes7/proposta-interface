@@ -1,0 +1,39 @@
+/* estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.conteudo {
+    position: relative;
+  }
+  
+  .barra-superior {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+
+.conteudo-principal{
+    background-color: blue;
+    height: calc(95vh - 50px);
+    border-radius: 10px;
+
+}
+
+.menu-lateral,
+.menu-direito {
+ height: 100vh;
+ padding: 50px;
+ border-radius: 10px;
+ background-color: aqua;
+}
+
