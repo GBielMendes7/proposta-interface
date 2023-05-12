@@ -1,12 +1,12 @@
 @extends('site.master.layout')
 
 @section('titulo')
-Home
+Iniciar
 @endsection
 
 @section('content')
 
-<h2>Home</h2>
+<h2>Notas parciais</h2>
 <div class="conteudo-principal">
     <p>teste</p>
               
