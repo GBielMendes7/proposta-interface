@@ -71,10 +71,10 @@
 
         <div class="conteudo flex-grow-1 mt-3">
             <div class="barra-superior">
-            <i class="fa fa-envelope"></i>
-            <h2 class="nome">Nome</h2>
+                <i class="fa fa-envelope"></i>
+                <h2 class="nome">Nome</h2>
             </div>
-            
+
             <div class="mt-3 mb-3">
                 <!-- conteúdo principal -->
                 <main>
@@ -88,10 +88,44 @@
 
         <div class="menu-direito m-3">
             <aside class="main-sidebar">
-                <div id="calendar"></div>
-               
-            </aside>
+
+
+                <div class="calendar-container">
+                    <div id="calendar"></div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <h4 class="card-title">Aulas do dia</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+
+                                    <div class="subject-code">
+                                        <p>AGO005</p>
+                                    </div>
+
+                                        <p class="subject-name">GESTÃO DE PROJETOS</p>
+                                        <p class="professor-name">Ana Carolina</p>
+                 
+                            </div>
+                            <div class="col">
+                                <p class="subject-time">19:00 - 20:40</p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
         </div>
+
+        </aside>
+    </div>
     </div>
 
 
