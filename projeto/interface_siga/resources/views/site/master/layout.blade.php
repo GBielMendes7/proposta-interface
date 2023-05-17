@@ -71,8 +71,10 @@
 
         <div class="conteudo flex-grow-1 mt-3">
             <div class="barra-superior">
-                <i class="fa fa-envelope"></i>
-                <h2 class="nome">Nome</h2>
+                <div class="chip">
+                    <img src="{{ Vite::asset('resources/images/avatar.png') }}" alt="Person" width="96" height="96">
+                    John Doe
+                </div>
             </div>
 
             <div class="mt-3 mb-3">
@@ -94,37 +96,77 @@
                     <div id="calendar"></div>
                 </div>
 
+
                 <div class="card-container">
+                    <h4 class="card-titulo">Aulas do dia</h4>
                     <div class="card">
-                        <h4 class="card-title">Aulas do dia</h4>
-                        <hr>
-                        <div class="row">
-                            <div class="col">
-
-                                    <div class="subject-code">
-                                        <p>AGO005</p>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="Materia-code">
+                                        <p class="nome_codigo">AGO005</p>
                                     </div>
-
-                                        <p class="subject-name">GESTÃO DE PROJETOS</p>
+                                    <p class="Materia-name">GESTÃO DE PROJETOS</p>
+                                    <p class="professor-name">Ana Carolina</p>
+                                </div>
+                                <div class="col Materia-time">
+                                    19:00 - 20:40
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="Materia-code">
+                                            <p class="nome_codigo">AGO005</p>
+                                        </div>
+                                        <p class="Materia-name">GESTÃO DE PROJETOS</p>
                                         <p class="professor-name">Ana Carolina</p>
-                 
+                                    </div>
+                                    <div class="col Materia-time">
+                                        19:00 - 20:40
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p class="subject-time">19:00 - 20:40</p>
-                            </div>
-
                         </div>
+                    </div>
 
+            </aside>
 
+            <div class="c-container">
+                <h5>PRÓXIMAS PROVAS</h5>
 
+                <div class="row p2">
+                    <div class="col">
+                        <p class="p2-data">16/04/2023</p>
+                        <div class="professor-name">AGO005</div>
+                        <p class="Materia-name">GESTÃO DE PROJETOS</p>
+                        <p class="professor-name">Ana Carolina</p>
+                    </div>
+                    <div class="col Materia-time">
+                        <p class="texto_p2">p2</p>
+                        <p>19:00 - 20:40</p>
                     </div>
                 </div>
+
+                <div class="row mt-3 p2-2">
+                    <div class="col">
+                        <p class="p2-data">16/04/2023</p>
+                        <div class="professor-name">AGO005</div>
+                        <p class="Materia-name">GESTÃO DE PROJETOS</p>
+                        <p class="professor-name">Ana Carolina</p>
+                    </div>
+                    <div class="col Materia-time">
+                        <p class="texto_p2">p2</p>
+                        <p>19:00 - 20:40</p>
+                    </div>
+                </div>
+            </div>
+
 
 
 
         </div>
-
-        </aside>
     </div>
     </div>
 
