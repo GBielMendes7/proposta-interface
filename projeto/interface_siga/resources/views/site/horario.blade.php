@@ -11,7 +11,7 @@ Iniciar
         <button id="prof"><i></i>Conheça nossos professores</button>
         <br>
         <div class="row">
-            <div class="col-sm-4 col-md-6 col-lg-12 horario">
+            <div class="col-sm-12 col-md-6 col-lg-4 horario">
                 <table>
                     <thead>
                     <tr>Segunda-feira</tr> 
@@ -45,7 +45,7 @@ Iniciar
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-12 col-md-6 col-lg-4 horario">
                 <table>
                     <thead>
                     <tr>Terça-feira</tr> 
