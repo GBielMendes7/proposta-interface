@@ -179,6 +179,8 @@ hr{
 .horario tbody {
   background-color: #ead195;
   color: #000;
+  text-align: center;
+  justify-content: center;
 }
 
 .horario tbody .top-table{
