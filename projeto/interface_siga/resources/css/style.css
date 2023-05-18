@@ -171,7 +171,7 @@ hr{
 /*Horário*/
 
 .tela_horario button {
-  border-radius: 60%;
+  border-radius: 30%;
   background-color: #f4f4f4a4;
   color: #000;
   align-items: flex-start;
