@@ -17,7 +17,7 @@ Iniciar
                        <tr>Segunda-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="top-table">
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -51,7 +51,7 @@ Iniciar
                        <tr>Terça-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="top-table">
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -82,7 +82,7 @@ Iniciar
             <div class="col-sm-4 col-md-6 col-lg-12">
             <table>
                     <thead>
-                       <tr>Quarta-feira</tr> 
+                       <tr class="top-table">Quarta-feira</tr> 
                     </thead>
                     <tbody>
                         <tr>
@@ -121,7 +121,7 @@ Iniciar
                        <tr>Quinta-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="top-table">
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -155,7 +155,7 @@ Iniciar
                        <tr>Sexta-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="top-table">
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -189,7 +189,7 @@ Iniciar
                        <tr>Sábado</tr> 
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="top-table">
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
