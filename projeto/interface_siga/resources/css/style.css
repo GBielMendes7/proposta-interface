@@ -170,6 +170,14 @@ hr{
 
 /*Horário*/
 
+.tela_horario button {
+  border-radius: 60%;
+  background-color: #f4f4f4a4;
+  color: #000;
+  align-items: flex-start;
+  float: left;
+}
+
 .horario thead tr {
   background-color: #FFD166;
   color: #F4F4F4;

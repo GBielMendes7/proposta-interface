@@ -7,8 +7,8 @@ Iniciar
 @section('content')
 
 <h2>Horario parciais</h2>
-<div>
-        <button>Conheça nossos professores</button>
+<div class="tela_horario">
+        <button><i></i>Conheça nossos professores</button>
         <br>
         <div class="row">
             <div class="col-sm-4 col-md-6 col-lg-12">
