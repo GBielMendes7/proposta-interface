@@ -168,7 +168,17 @@ hr{
 
 
 
+/*Horário*/
 
+.horario thead tr {
+  background-color: #FFD166;
+  color: #F4F4F4;
+  text-align: left;
+}
+
+.horario tbody {
+  background-color: #ead195;
+}
 
 
 /* Calendário */

@@ -150,7 +150,7 @@ Iniciar
                 </table>
             </div>
             <div class="col-sm-4 col-md-6 col-lg-12">
-            <table>
+            <table class="horario">
                     <thead>
                        <tr>Sexta-feira</tr> 
                     </thead>
