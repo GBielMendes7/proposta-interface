@@ -7,11 +7,11 @@ Iniciar
 @section('content')
 
 <h2>Horários parciais</h2>
-<div class="tela_horario">
+<div class="conteudo-principal">
         <button id="prof"><i></i>Conheça nossos professores</button>
         <br>
         <div class="row">
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-4 col-md-6 col-lg-12 horario">
                 <table>
                     <thead>
                     <tr>Segunda-feira</tr> 

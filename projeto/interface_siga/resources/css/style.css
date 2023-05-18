@@ -170,8 +170,14 @@ hr{
 
 /*Horário*/
 
-.tela_horario {
-  background-color: white;
+.conteudo-principal button #prof {
+  border-radius: 30%;
+  background-color: #f4f4f4a4;
+  color: #000;
+}
+
+.horario table{
+  display: flex;
 }
 
 /*.tela_horario button {
