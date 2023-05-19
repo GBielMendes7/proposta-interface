@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     @vite(['resources/js/app.js'])
 
@@ -19,61 +20,65 @@
 <body>
 
     <div class="d-flex">
-        <div class="menu-lateral m-3">
+        <div class="menu-lateral">
             <!-- Menu Lateral -->
             <aside class="main-sidebar">
                 <!-- Logo do Menu -->
-                <a href="#" class="logo">
-                    <span class="logo-lg"><i class="fas fa-cogs"></i> Meu Menu</span>
+                <a href="#">
+                <img src="{{ Vite::asset('resources/images/fatec.svg') }}" alt="Person" width="182" height="103">
                 </a>
 
                 <!-- Links do Menu -->
                 <nav class="sidebar">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column mt-3" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Link home -->
-                        <li><a href="{{route('site.home')}}"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="selecao_principal"><a href="{{route('site.home')}}"><i class="fa fa-home"></i> Home</a></li>
 
                         <!-- Link matricula -->
-                        <li><a href="#"><i class="fa fa-info-circle"></i> Matrícula</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-info-circle"></i> Matrícula</a></li>
 
                         <!-- Link consulta -->
-                        <li><a href="#" id="consulta-menu"><i class="fa fa-envelope"></i> Consulta</a>
+                        <li class="selecao_principal"><a href="#" id="consulta-menu"><i class="fa fa-envelope"></i> Consulta</a>
                             <ul class="submenu">
-                                <li><a href="#">Historico Completo</a></li>
-                                <li><a href="{{route('site.horario')}}">Horário</a></li>
-                                <li><a href="{{route('site.notas')}}">Notas Parciais</a></li>
-                                <li><a href="{{route('site.falta')}}">Faltas Parciais</a></li>
+                                <li class="selecao_segundario"><a href="#">Historico Completo</a></li>
+                                <li class="selecao_segundario"><a href="{{route('site.horario')}}">Horário</a></li>
+                                <li class="selecao_segundario"><a href="{{route('site.notas')}}">Notas Parciais</a></li>
+                                <li class="selecao_segundario"><a href="{{route('site.falta')}}">Faltas Parciais</a></li>
                             </ul>
                         </li>
 
                         <!-- Link Agenda -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Agenda</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Agenda</a></li>
 
                         <!-- Link Segurança -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Segurança</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Segurança</a></li>
 
                         <!-- Link Solicitações -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Solicitações</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Solicitações</a></li>
 
                         <!-- Link Upload de Arquivos -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Upload de Arquivos</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Upload de Arquivos</a></li>
 
                         <!-- Link Plano de Ensino -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Plano de Ensino</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Plano de Ensino</a></li>
 
                         <!-- Link Matriz em Inglês -->
-                        <li><a href="#"><i class="fa fa-envelope"></i> Matriz em Inglês</a></li>
+                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Matriz em Inglês</a></li>
                     </ul>
                 </nav>
             </aside>
         </div>
 
 
-        <div class="conteudo flex-grow-1 mt-3">
+        <div class="conteudo flex-grow-1 m-3">
             <div class="barra-superior">
+                
                 <div class="chip">
                     <img src="{{ Vite::asset('resources/images/avatar.png') }}" alt="Person" width="96" height="96">
                     John Doe
+                </div>
+                <div>
+                    <h4 class="icone_barra">T</h4>
                 </div>
             </div>
 
@@ -88,7 +93,7 @@
         </div>
 
 
-        <div class="menu-direito m-3">
+        <div class="menu-direito">
             <aside class="main-sidebar">
 
 
@@ -144,7 +149,7 @@
                         <p class="professor-name">Ana Carolina</p>
                     </div>
                     <div class="col Materia-time">
-                        <p class="texto_p2">p2</p>
+                        <p class="texto_p2">P2</p>
                         <p>19:00 - 20:40</p>
                     </div>
                 </div>
@@ -157,7 +162,7 @@
                         <p class="professor-name">Ana Carolina</p>
                     </div>
                     <div class="col Materia-time">
-                        <p class="texto_p2">p2</p>
+                        <p class="texto_p2">P2</p>
                         <p>19:00 - 20:40</p>
                     </div>
                 </div>
