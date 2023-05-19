@@ -14,7 +14,6 @@ trHeader.appendChild(thHeader);
 table.appendChild(trHeader);
 
 
-
 let day = 1;
 for (let i = 1; i <= 6; i++) {
     let tr = document.createElement('tr');
@@ -33,5 +32,16 @@ for (let i = 1; i <= 6; i++) {
     }
     table.appendChild(tr);
 }
+
+// Cabeçalho com os dias da semana
+let trDaysOfWeek = document.createElement('tr');
+let daysOfWeek = ['S', 'T', 'Q', 'Q', 'S', 'S', 'D'];
+for (let i = 0; i < daysOfWeek.length; i++) {
+    let th = document.createElement('th');
+    th.innerText = daysOfWeek[i];
+    th.classList.add('daysOfWeek');
+    trDaysOfWeek.appendChild(th);
+}
+table.appendChild(trDaysOfWeek);
 
 calendar.appendChild(table);

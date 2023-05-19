@@ -77,7 +77,7 @@
                     <img src="{{ Vite::asset('resources/images/avatar.png') }}" alt="Person" width="96" height="96">
                     John Doe
                 </div>
-                <div>
+                <div class="chip2">
                     <h4 class="icone_barra">T</h4>
                 </div>
             </div>
@@ -100,6 +100,8 @@
                 <div class="calendar-container">
                     <div id="calendar"></div>
                 </div>
+
+                <hr>
 
 
                 <div class="card-container">
