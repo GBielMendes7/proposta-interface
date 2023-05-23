@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     @vite(['resources/js/app.js'])
@@ -32,13 +33,13 @@
                 <nav class="sidebar">
                     <ul class="nav nav-pills nav-sidebar flex-column mt-3" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Link home -->
-                        <li class="selecao_principal"><a href="{{route('site.home')}}"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="selecao_principal"><a href="{{route('site.home')}}"><span class="material-symbols-outlined">home</span> Home</a></li>
 
                         <!-- Link matricula -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-info-circle"></i> Matrícula</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">task</span> Matrícula</a></li>
 
                         <!-- Link consulta -->
-                        <li class="selecao_principal"><a href="#" id="consulta-menu"><i class="fa fa-envelope"></i> Consulta</a>
+                        <li class="selecao_principal"><a href="#" id="consulta-menu"><span class="material-symbols-outlined">search</span> Consulta</a>
                             <ul class="submenu">
                                 <li class="selecao_segundario"><a href="#">Historico Completo</a></li>
                                 <li class="selecao_segundario"><a href="{{route('site.horario')}}">Horário</a></li>
@@ -48,22 +49,22 @@
                         </li>
 
                         <!-- Link Agenda -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Agenda</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">calendar_today</span> Agenda</a></li>
 
                         <!-- Link Segurança -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Segurança</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">security</span> Segurança</a></li>
 
                         <!-- Link Solicitações -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Solicitações</a></li>
+                        <li class="selecao_principal"><a href="#"> <span class="material-symbols-outlined">content_paste</span>Solicitações</a></li>
 
                         <!-- Link Upload de Arquivos -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Upload de Arquivos</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">upload</span> Upload de Arquivos</a></li>
 
                         <!-- Link Plano de Ensino -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Plano de Ensino</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">assignment</span> Plano de Ensino</a></li>
 
                         <!-- Link Matriz em Inglês -->
-                        <li class="selecao_principal"><a href="#"><i class="fa fa-envelope"></i> Matriz em Inglês</a></li>
+                        <li class="selecao_principal"><a href="#"><span class="material-symbols-outlined">person</span> Matriz em Inglês</a></li>
                     </ul>
                 </nav>
             </aside>
@@ -78,7 +79,7 @@
                     John Doe
                 </div>
                 <div class="chip2">
-                    <h4 class="icone_barra">T</h4>
+                    <h4 class="icone_barra"><span class="material-symbols-outlined">exit_to_app</span></h4>
                 </div>
             </div>
 

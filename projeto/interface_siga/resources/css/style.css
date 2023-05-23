@@ -55,9 +55,7 @@ body{
 }
 
 .icone_barra{
-  display: inline-block;
-  padding: 0 25px;
-  height: 50px;
+  padding: 0 9px;
   font-size: 16px;
   line-height: 50px;
 }
@@ -96,10 +94,10 @@ body{
 
 a{
   text-decoration: none;
-  color: #202020;
+  color: #383838;
 }
 
-a:hover {
+.material-symbols-outlined, a:hover {
   color: #000000;
  }
 
@@ -107,6 +105,13 @@ a:hover {
   margin: 5px;
   font-size: 13px;
   list-style: none;
+}
+.material-symbols-outlined{
+  position: relative;
+  font-size: 27px;
+  width: 30px;
+  top: 4px;
+  color: #202020;
 }
 
 /* menu direito */
@@ -311,4 +316,8 @@ th.daysOfWeek {
   border-radius: 5px;
   color: #fff;
   background-color: #FE275E;/* Altera a cor do dia de hoje para vermelho */
+}
+.today:hover{
+  background: rgb(149,1,1);
+  background: linear-gradient(324deg, rgba(149,1,1,1) 16%, rgba(210,98,115,1) 46%, rgba(254,39,94,1) 65%);
 }
