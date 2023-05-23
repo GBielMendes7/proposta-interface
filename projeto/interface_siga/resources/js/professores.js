@@ -1,5 +1,10 @@
-let professor = document.getElementById('professores');
+let professor = document.getElementById('prof');
 
-professor.addEventListener('click', () => {
-   professor.style.display('') 
+professor.addEventListener('click', function() {
+    let telaProf = document.getElementById('professores');
+    if(telaProf.style === "none"){
+        telaProf.style = "block";
+    }else{
+        telaProf.style = "none";
+    }
 });
