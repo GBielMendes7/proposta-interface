@@ -248,7 +248,7 @@ hr{
   margin-bottom: -500px;
 }
 
-.professores div .tablea_prof table {
+.professores div .tablea_prof table td {
   border: none;
   border-radius: 30%;
   background-color: #333;
