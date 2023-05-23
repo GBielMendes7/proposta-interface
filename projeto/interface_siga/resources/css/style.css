@@ -231,6 +231,7 @@ hr{
   border-radius: 30%;
   background-color: #f4f4f4a4;
   color: #000;
+  z-index: 1;
 }
 
 .horario table{
@@ -240,6 +241,10 @@ hr{
 .professores {
   background-color: #555;
   display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-bottom: -500px;
 }
 
 .professores div .tablea_prof table {
