@@ -218,6 +218,57 @@ Iniciar
                 </table>
             </div>
         </div>
+        <div class="professores">
+            <i></i>
+            <h2>PROFESSORES</h2>
+            <br>
+            <div class="tabela_prof">
+                <table>
+                    <tr>
+                       <th>Sigla</th> 
+                       <th>Disciplina</th> 
+                       <th>Turma</th>
+                       <th>Professor</th>  
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                    <tr>
+                        <td>AGO005</td>
+                        <td>Gestão de Projetos - 4 hs/aula</td>
+                        <td>A</td>
+                        <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 
 @endsection

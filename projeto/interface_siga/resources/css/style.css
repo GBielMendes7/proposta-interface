@@ -237,6 +237,22 @@ hr{
   display: flex;
 }
 
+.professores {
+  background-color: #555;
+  display: none;
+}
+
+.professores div .tablea_prof table {
+  border: none;
+  border-radius: 30%;
+  background-color: #333;
+}
+
+.professores div .tablea_prof table th{
+  background-color: #e3e3e3;
+  color: #333;
+}
+
 /*.tela_horario button {
   border-radius: 30%;
   background-color: #f4f4f4a4;
