@@ -8,10 +8,10 @@ Iniciar
 
 <h2>Horários parciais</h2>
 <div class="conteudo-principal">
-        <button id="prof"><i></i>Conheça nossos professores</button>
+        <button id="prof"><span class="material-icons-outlined">school</span>Conheça nossos professores</button>
         <br>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 horario">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
                     <tr>Segunda-feira</tr> 
@@ -45,7 +45,7 @@ Iniciar
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 horario">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
                     <tr>Terça-feira</tr> 
@@ -79,7 +79,7 @@ Iniciar
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
                     <tr class="top-table">Quarta-feira</tr> 
@@ -115,7 +115,7 @@ Iniciar
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
                     <tr>Quinta-feira</tr> 
@@ -149,7 +149,7 @@ Iniciar
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table class="horario">
                     <thead>
                         <tr>Sexta-feira</tr> 
@@ -183,7 +183,7 @@ Iniciar
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
                         <tr>Sábado</tr> 
@@ -219,7 +219,7 @@ Iniciar
             </div>
         </div>
         <div class="professores">
-            <i></i>
+            <span class="material-icons-outlined">school</span>
             <h2>PROFESSORES</h2>
             <br>
             <div class="tabela_prof">
