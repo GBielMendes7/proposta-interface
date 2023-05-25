@@ -238,8 +238,9 @@ hr{
   color: #000;
 }
 
-.horario table{
+.conteudo-principal table{
   display: flex;
+  padding: 30px;;
 }
 
 .conteudo-principal table .top-table {
