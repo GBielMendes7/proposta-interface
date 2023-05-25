@@ -8,16 +8,18 @@ Iniciar
 
 <h2>Horários parciais</h2>
 <div class="conteudo-principal">
+        <br>
         <button id="prof"><span class="material-icons-outlined">school</span>Conheça nossos professores</button>
         <br>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                    <tr>Segunda-feira</tr> 
+                    
                     </thead>
                     <tbody>
-                        <tr class="top-table">
+                        <tr class="top-table"><th>Segunda-feira</th></tr>
+                        <tr >
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -48,10 +50,10 @@ Iniciar
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                    <tr>Terça-feira</tr> 
+                    <tr class="top-table">Terça-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr class="top-table">
+                        <tr>
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -82,7 +84,7 @@ Iniciar
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                    <tr class="top-table">Quarta-feira</tr> 
+                        <tr class="top-table">Quarta-feira</tr> 
                     </thead>
                     <tbody>
                         <tr>
@@ -118,10 +120,10 @@ Iniciar
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                    <tr>Quinta-feira</tr> 
+                    <tr class="top-table">Quinta-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr class="top-table">
+                        <tr>
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -152,10 +154,10 @@ Iniciar
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table class="horario">
                     <thead>
-                        <tr>Sexta-feira</tr> 
+                        <tr class="top-table">Sexta-feira</tr> 
                     </thead>
                     <tbody>
-                        <tr class="top-table">
+                        <tr>
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
@@ -186,10 +188,10 @@ Iniciar
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                        <tr>Sábado</tr> 
+                        <tr class="top-table">Sábado</tr> 
                     </thead>
                     <tbody>
-                        <tr class="top-table">
+                        <tr>
                             <th>Horário</th>
                             <th>Disciplina</th>
                             <th>Turma</th>
