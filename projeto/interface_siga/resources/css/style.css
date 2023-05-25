@@ -246,15 +246,15 @@ hr{
 .conteudo-principal table{
   display: flex;
   padding: 30px;
-  justify-content: center;
 }
 
-.conteudo-principal table thead{
+.conteudo-principal table .top-table{
   background-color: #FFD166;
+  width: 100%;
 }
 
 .professores {
-  background-color: #555;
+  background-color: white;
   display: none;
   justify-content: center;
   align-items: center;
@@ -263,7 +263,7 @@ hr{
   margin-bottom: -500px;
 }
 
-.professores div .tablea_prof table td {
+.professores div .tabela_prof table td {
   border: none;
   border-radius: 30%;
   background-color: #333;

@@ -11,14 +11,15 @@ Iniciar
         <br>
         <button id="prof"><span class="material-icons-outlined">school</span>Conheça nossos professores</button>
         <br>
-        <div class="row">
+        <div></div>
+        <!--<div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
-                    
+                        <tr class="card-titulo">Segunda-feira</tr>
                     </thead>
                     <tbody>
-                        <tr class="top-table"><th>Segunda-feira</th></tr>
+                        
                         <tr >
                             <th>Horário</th>
                             <th>Disciplina</th>
@@ -186,9 +187,10 @@ Iniciar
                 </table>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
+                
                 <table>
                     <thead>
-                        <tr class="top-table">Sábado</tr> 
+                        <tr class="top-table"><th class="top-table">Sábado</th></tr> 
                     </thead>
                     <tbody>
                         <tr>
@@ -269,7 +271,7 @@ Iniciar
                         <td>Ana Carolina Nicolosi da R. Gracioso</td>
                     </tr>
                 </table>
-            </div>
+            </div>-->
         </div>
     </div>
 
