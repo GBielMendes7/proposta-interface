@@ -8,11 +8,76 @@ Iniciar
 
 <h2>Horários parciais</h2>
 <div class="conteudo-principal">
-        <br>
-        <button id="prof"><span class="material-icons-outlined">school</span>Conheça nossos professores</button>
-        <br>
-        <div></div>
-        <!--<div class="row">
+    <button id="prof">
+        <span class="material-icons-outlined">school</span> <h4 class="texto-button">Conheça nossos professores</h4></button>
+    <br>
+    <div class="horario-container">
+        <h4 class="horario-titulo">Segunda-feira</h4>
+        <div class="teste-p">
+            <table>
+                <tr>
+                    <th class="horario-cabecalho">Horário</th>
+                    <th class="horario-cabecalho">Disciplina</th>
+                    <th class="horario-cabecalho">Turma</th>
+                </tr>
+                <tr>
+                    <td class="horario-teste">19:00 - 19:50</td>
+                    <td class="horario-teste">IRC100</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">19:50 - 20:40</td>
+                    <td class="horario-teste">IRC100</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">20:50 - 21:40</td>
+                    <td class="horario-teste">AG0005</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">21:40 - 22:30</td>
+                    <td class="horario-teste">AG0005</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="horario-container">
+        <h4 class="horario-titulo">Segunda-feira</h4>
+        <div class="teste-p">
+            <table>
+                <tr>
+                    <th class="horario-cabecalho">Horário</th>
+                    <th class="horario-cabecalho">Disciplina</th>
+                    <th class="horario-cabecalho">Turma</th>
+                </tr>
+                <tr>
+                    <td class="horario-teste">19:00 - 19:50</td>
+                    <td class="horario-teste">IRC100</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">19:50 - 20:40</td>
+                    <td class="horario-teste">IRC100</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">20:50 - 21:40</td>
+                    <td class="horario-teste">AG0005</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+                <tr>
+                    <td class="horario-teste">21:40 - 22:30</td>
+                    <td class="horario-teste">AG0005</td>
+                    <td class="horario-teste">A</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--<div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <table>
                     <thead>
@@ -272,7 +337,6 @@ Iniciar
                     </tr>
                 </table>
             </div>-->
-        </div>
-    </div>
+</div>
 
 @endsection

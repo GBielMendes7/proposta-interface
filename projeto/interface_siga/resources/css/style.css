@@ -28,6 +28,7 @@ body{
   }
 
 .chip {
+  font-weight: 510;
   display: inline-block;
   flex: 1;
   padding: 0 25px;
@@ -62,11 +63,16 @@ body{
 
 .conteudo-principal{
     background-color: #fff;
-    height: 100%;
     border-radius: 10px;
     box-shadow: 1px 1px 16px 0px #e3e3e3;
+    padding: 15px;
 
 }
+
+
+
+
+
 
 .menu-lateral{
   margin: 15px 0px 15px 15px;
@@ -114,11 +120,14 @@ a{
   color: #202020;
 }
 
+
+
+
+
 /* menu direito */
 .menu-direito {
 margin: 15px 15px 0px 0px;
  background-color: #fff;
- height: 100%;
  padding: 10px;
  border-radius: 10px;
  box-shadow: 1px 1px 16px 0px #e3e3e3;
@@ -141,6 +150,7 @@ margin: 15px 15px 0px 0px;
 }
 
 .card-titulo {
+  font-weight: 510;
   font-size: 20px;
   background-color: #FFD166;
   color: white;
@@ -233,17 +243,65 @@ hr{
 /*Horário*/
 
 .conteudo-principal button{
-  border-radius: 10%;
+  border-radius: 28px;
   background-color: #f4f4f4a4;
-  color: #000;
-  border-color: #f4f4f4a4;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+  color: #4e4e4e;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+}
+.conteudo-principal button:hover{
+  transition: .7s;
+  background-color: #b6b6b6a4;
+  color: #757575;;
+}
+
+.material-icons-outlined{
+  background-color: #cfcfcf;
+  border-radius: 30px;
+  padding: 4px;
+  margin: 0 10px;
+}
+
+.horario-container{
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #FFFEEC;
   margin: 10px;
 }
 
-.conteudo-principal table{
+.horario-titulo{
+  font-weight: 510;
+  font-size: 20px;
+  background-color: #FFD166;
+  color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.horario-cabecalho{
+ font-size: 12px;
+ padding: 5px 10px 0 10px;
+ color: #555;
+}
+
+.horario-teste{
+  font-size: 14px;
+  font-weight: 510;
+  color: #161616;
+}
+
+.teste-p{
+  padding: 0 20px 0 20px;
+}
+
+.texto-button{
+  display: inline-block;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 510;
+}
+/*.conteudo-principal table{
   display: flex;
   padding: 30px;
 }
@@ -274,7 +332,7 @@ hr{
   color: #333;
 }
 
-/*.tela_horario button {
+.tela_horario button {
   border-radius: 30%;
   background-color: #f4f4f4a4;
   color: #000;
