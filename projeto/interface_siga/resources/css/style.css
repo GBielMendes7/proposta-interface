@@ -301,6 +301,14 @@ hr{
   font-size: 14px;
   font-weight: 510;
 }
+
+.professores {
+  background-color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 /*.conteudo-principal table{
   display: flex;
   padding: 30px;
@@ -311,15 +319,7 @@ hr{
   width: 100%;
 }
 
-.professores {
-  background-color: white;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-  padding: 10px;
-  margin-bottom: -500px;
-}
+
 
 .professores div .tabela_prof table td {
   border: none;
