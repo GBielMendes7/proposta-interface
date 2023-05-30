@@ -1,14 +1,8 @@
 let botao = document.getElementById('prof');
-let telaProf = document.getElementById('professores');
 
-botao.addEventListener('click', function(event) {
-    
-    event.preventDefault();
-    let professor = telaProf.nextElementSibling;
-    professor.classList.toggle('ativo');
-    /*if(telaProf.style.display === "none"){
-        telaProf.style.display = "block";
-    }else{
-        telaProf.style.display = "none";
-    }*/
+botao.addEventListener('click', function() {
+  let telaProf = document.querySelectorAll('.professores');
+  for (let i = 0; i < telaProf.length; i++) {
+    telaProf[i].classList.toggle("hide");
+  }
 });

@@ -206,6 +206,7 @@ Iniciar
     </div>
     
     <div class="professores">
+        
         <span class="material-icons-outlined">school</span>
         <h2>PROFESSORES</h2>
         <br>
@@ -256,5 +257,7 @@ Iniciar
             </table>
     </div>
 </div>
+
+
 
 @endsection
