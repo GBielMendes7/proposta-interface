@@ -310,6 +310,14 @@ hr{
   padding: 10px;
 }
 
+.professores.ativo {
+  background-color: rgb(163, 159, 159);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 /*.conteudo-principal table{
   display: flex;
   padding: 30px;
