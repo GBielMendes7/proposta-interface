@@ -304,11 +304,11 @@ hr{
 
 .professores {
   background-color: white;
-  display: none;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
+
 /*.conteudo-principal table{
   display: flex;
   padding: 30px;
