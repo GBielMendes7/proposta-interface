@@ -303,7 +303,8 @@ hr{
 }
 
 .professores {
-  background-color: white;
+  background-color: rgb(163, 159, 159);
+  display: none;
   justify-content: center;
   align-items: center;
   padding: 10px;

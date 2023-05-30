@@ -1,6 +1,6 @@
-let professor = document.getElementById('prof');
+let botao = document.getElementById('prof');
 
-professor.addEventListener('click', function() {
+botao.addEventListener('click', function() {
     let telaProf = document.getElementById('professores');
     if(telaProf.style.display === "none"){
         telaProf.style.display = "block";
