@@ -11,6 +11,58 @@ Iniciar
     <button id="prof">
         <span class="material-icons-outlined">school</span> <h4 class="texto-button">Conheça nossos professores</h4></button>
     <br>
+    <div class="professores">
+        
+        <span class="material-icons-outlined">school</span>
+        <h2>PROFESSORES E DISCIPLINAS</h2>
+        <br>
+        <div class="tabela_prof">
+            <table>
+                <tr>
+                    <th>Sigla</th> 
+                    <th>Disciplina</th> 
+                    <th>Turma</th>
+                    <th>Professor</th>  
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+                <tr>
+                    <td>AGO005</td>
+                    <td>Gestão de Projetos - 4 hs/aula</td>
+                    <td>A</td>
+                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
+                </tr>
+            </table>
+        </div>
+    </div>
     <div class="horario-container">
         <h4 class="horario-titulo">Segunda-feira</h4>
         <div class="teste-p">
@@ -203,58 +255,6 @@ Iniciar
                 </tr>
             </table>
         </div>
-    </div>
-    
-    <div class="professores">
-        
-        <span class="material-icons-outlined">school</span>
-        <h2>PROFESSORES E DISCIPLINAS</h2>
-        <br>
-        <div class="tabela_prof">
-            <table>
-                <tr>
-                    <th>Sigla</th> 
-                    <th>Disciplina</th> 
-                    <th>Turma</th>
-                    <th>Professor</th>  
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-                <tr>
-                    <td>AGO005</td>
-                    <td>Gestão de Projetos - 4 hs/aula</td>
-                    <td>A</td>
-                    <td>Ana Carolina Nicolosi da R. Gracioso</td>
-                </tr>
-            </table>
     </div>
 </div>
 
