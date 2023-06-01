@@ -299,8 +299,16 @@ hr{
   z-index: 10;
 }
 
-.professores table{
-  margin: auto;
+.professores .span {
+  margin: 5px;
+}
+
+.tabela_prof {
+  margin: 10px;
+}
+
+.tabela_prof th {
+  text-align: center!important;
 }
 
 .professores span{
