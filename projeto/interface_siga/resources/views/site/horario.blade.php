@@ -204,7 +204,7 @@ Iniciar
     </div>
     <br>
     <div class="professores">
-        <span class="material-icons-outlined">school</span><h2>PROFESSORES E DISCIPLINAS</h2>
+        <span class="material-icons-outlined">school</span><h4 class="texto-button">PROFESSORES E DISCIPLINAS</h4>
         <br>
         <div class="tabela_prof">
             <table>
