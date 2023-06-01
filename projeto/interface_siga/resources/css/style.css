@@ -312,11 +312,20 @@ hr{
   margin-top: -500px;
 }
 
+.professores table{
+  margin: auto;
+}
+
 .professores span{
   background-color: none;
   justify-content: center;
   align-items: center;
   position: center;
+}
+
+.professores h2{
+  align-items: center;
+  justify-content: center;
 }
 
 .professores.hide{
