@@ -312,6 +312,13 @@ hr{
   margin-top: -500px;
 }
 
+.professores span{
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+  position: center;
+}
+
 .professores.hide{
   display: block;
 }
