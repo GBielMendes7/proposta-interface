@@ -242,20 +242,6 @@ hr{
 
 /*Horário*/
 
-.conteudo-principal button{
-  border-radius: 28px;
-  background-color: #f4f4f4a4;
-  color: #4e4e4e;
-  border: none;
-  padding: 5px;
-  margin: 10px;
-}
-.conteudo-principal button:hover{
-  transition: .7s;
-  background-color: #b6b6b6a4;
-  color: #757575;;
-}
-
 .material-icons-outlined{
   background-color: #cfcfcf;
   border-radius: 30px;
@@ -300,6 +286,7 @@ hr{
   margin: 5px;
   font-size: 14px;
   font-weight: 510;
+  position: absolute;
 }
 
 .professores {
