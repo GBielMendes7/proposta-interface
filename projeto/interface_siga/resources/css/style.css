@@ -304,12 +304,13 @@ hr{
 
 .professores {
   background-color: #f0f0f0;
-  border-radius: 5%;
+  border-radius: 5px;
   display: none;
   justify-content: center;
   align-items: center;
   padding: 10px;
   margin-top: -500px;
+  z-index: 10;
 }
 
 .professores table{
