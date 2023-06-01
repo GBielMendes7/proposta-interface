@@ -208,7 +208,7 @@ Iniciar
     <div class="professores">
         
         <span class="material-icons-outlined">school</span>
-        <h2>PROFESSORES</h2>
+        <h2>PROFESSORES E DISCIPLINAS</h2>
         <br>
         <div class="tabela_prof">
             <table>
