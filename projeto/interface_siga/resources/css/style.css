@@ -357,3 +357,59 @@ th.daysOfWeek {
   background: rgb(149,1,1);
   background: linear-gradient(324deg, rgba(149,1,1,1) 16%, rgba(210,98,115,1) 46%, rgba(254,39,94,1) 65%);
 }
+
+
+/* Faltas */
+.faltas{
+  background-color: #f4f4f4a4;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
+.conteudo_falta{
+  text-align: inherit;
+  width: 400px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 510;
+}
+.conteudo_falta-t{
+  text-align: center;
+  width: 400px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 510;
+}
+
+.falta-cabecalho{
+  width: 400px;
+  font-size: 12px;
+  padding: 5px 10px 0 10px;
+  color: #555;
+ }
+
+:root {
+  --bar-color: green; /* Você pode mudar essa cor para outra que você preferir */
+}
+
+.progress-container {
+  width: 100%;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #cfcfcf;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: var(--bar-color);
+}
+
+
+
+
+
+/* Notas */

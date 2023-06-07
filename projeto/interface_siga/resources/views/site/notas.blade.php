@@ -8,7 +8,7 @@ Iniciar
 
 <h2>Notas parciais</h2>
 <div class="conteudo-principal">
-    <p>teste</p>
+<p>teste</p>
               
 </div>
 
