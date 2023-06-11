@@ -238,7 +238,22 @@ hr{
 }
 
 
+/*Home*/
+.aviso-erro{
+  background-color: #f7c9c9;
+  border: solid #ff3e3e;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  color: #d90000;
+}
+.home-noticias{
+  margin: 15px;
+}
 
+.home-banner{
+  margin: 15px;
+}
 
 /*Horário*/
 
