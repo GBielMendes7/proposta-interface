@@ -424,7 +424,62 @@ th.daysOfWeek {
 }
 
 
+/* Login */
 
+
+.t1{
+  width: 993px;
+  height: 570px;
+  filter: drop-shadow(4px 5px 11px rgba(0, 0, 0, 0.25));
+}
+.t2{
+
+  width: 477px;
+  height: 570px;
+  left: calc(50% - 477px/2 - 257.5px);
+  padding: 80px;
+  background: #FFD167;
+  border-radius: 24px 0px 0px 24px;
+}
+.t3{
+  position: absolute;
+  width: 516px;
+  height: 570px;
+  left: calc(50% - 516px/2 + 239px);
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 0px 24px 24px 0px;
+  padding: 40px;
+}
+.form-login{
+  margin-top: 23px;
+}
+
+.login-h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #000000;
+}
+.row-login{
+  display: flex;
+}
+.col-login{
+  margin: 20px;
+}
+.botao-login{
+  width: 361px;
+  height: 65px;
+  background: #FFD167;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.botao-login::hover{
+  background: #eba502;
+
+}
 
 
 /* Notas */

@@ -76,10 +76,15 @@
                 
                 <div class="chip">
                     <img src="{{ Vite::asset('resources/images/avatar.png') }}" alt="Person" width="96" height="96">
-                    John Doe
+                    {{ Auth::user()->name }}
                 </div>
                 <div class="chip2">
-                    <h4 class="icone_barra"><span class="material-symbols-outlined">exit_to_app</span></h4>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="icone_barra" style="background: none; border: none; cursor: pointer;">
+                            <span class="material-symbols-outlined">exit_to_app</span>
+                        </button>
+                    </form>
                 </div>
             </div>
 
