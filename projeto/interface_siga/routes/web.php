@@ -31,9 +31,9 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth'])->group(function () {
     Route::get("/home", [HomeController::class, 'home'])->name('site.home');
-    Route::get("/Faltas_parciais", [FaltaController::class, 'falta'])->name('site.falta');
+    Route::get("/Faltas_parciais", [FaltaController::class, 'index'])->name('site.falta');
     Route::get("/Notas_parciais", [NotasController::class, 'notas'])->name('site.notas');
-    Route::get("/Horario_parciais", [HorarioController::class, 'horario'])->name('site.horario');
+    Route::get("/Horario_parciais", [HorarioController::class, 'index'])->name('site.horario');
 });
 
 
