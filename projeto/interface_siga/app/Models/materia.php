@@ -13,15 +13,6 @@ class materia extends Model
         'sigla',
         'professor',
         'turma',
-        'falta_id',
-        'nota_id'
     ];
 
-    public function falta(){
-        return $this->belongsTo(falta::class);
-    }
-
-    public function nota(){
-        return $this->belongsTo(nota::class);
-    }
 }

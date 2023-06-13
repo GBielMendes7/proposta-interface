@@ -13,8 +13,12 @@ return new class extends Migration
     {
         Schema::create('notas', function (Blueprint $table) {
             $table->id();
-            $table->float("p1");
-            $table->float("p2");
+            $table->unsignedBigInteger('materia_id');
+            $table->unsignedBigInteger('user_id');
+            $table->float('nota_p1');
+            $table->float('nota_p2');
+            $table->foreign('materia_id')->references('id')->on('materias');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

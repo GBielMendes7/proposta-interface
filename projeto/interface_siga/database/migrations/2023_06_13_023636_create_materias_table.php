@@ -17,8 +17,6 @@ return new class extends Migration
             $table->string("sigla", 20);
             $table->string("professor");
 	        $table->string("turma");
-            $table->foreignId('falta_id')->constrained('faltas');
-            $table->foreignId('nota_id')->constrained('notas');
             $table->timestamps();
         });
     }

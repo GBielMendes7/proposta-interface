@@ -405,7 +405,7 @@ th.daysOfWeek {
  }
 
 :root {
-  --bar-color: green; /* Você pode mudar essa cor para outra que você preferir */
+  --bar-color: green;
 }
 
 .progress-container {
@@ -501,10 +501,11 @@ th.daysOfWeek {
 }
 
 .box-materia{
+  display: inline-block;
+  margin: 10px;
   padding: 20px;
   background: #F4F4F4;
   border-radius: 5px;
-  width: 23%;
   border-top: 15px solid #FFD166;
 }
 
@@ -521,7 +522,6 @@ th.daysOfWeek {
 }
 
 .flex-centro{
-  display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -541,20 +541,8 @@ th.daysOfWeek {
 .container-grafico .grafico{
   height: 15px;
   border-radius: 50px;
+  width: 0%;
+  height: 100%;
+  background-color: var(--bar-color);
 
-}
-
-.container-grafico .porcentagem_80{
-  width: 80%;
-  background: #B2E988;
-}
-
-.container-grafico .porcentagem_85{
-  width: 85%;
-  background: #B2E988;
-}
-
-.container-grafico .porcentagem_100{
-  width: 100%;
-  background: #4BAC00;
 }

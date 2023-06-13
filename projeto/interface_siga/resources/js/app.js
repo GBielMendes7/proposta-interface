@@ -3,6 +3,7 @@ import '../css/style.css';
 import '../js/calendar.js';
 import '../js/submenu.js';  
 import '../js/barra-progresso.js';
+import '../js/nota-progresso.js';
 
 import.meta.glob(['../images/**']);
 
