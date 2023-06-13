@@ -14,7 +14,8 @@ class materia extends Model
         'professor',
         'turma',
         'falta_id',
-        'nota_id'];
+        'nota_id'
+    ];
 
     public function falta(){
         return $this->belongsTo(falta::class);

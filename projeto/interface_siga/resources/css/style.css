@@ -483,3 +483,78 @@ th.daysOfWeek {
 
 
 /* Notas */
+.espaco20{
+  height: 20px;
+}
+
+.texto-esquerda{
+  text-align: left;
+}
+
+.texto-centro{
+  text-align: center;
+}
+
+.subtitulo{
+  color: #707070;
+  font-size: 1.4em;
+}
+
+.box-materia{
+  padding: 20px;
+  background: #F4F4F4;
+  border-radius: 5px;
+  width: 23%;
+  border-top: 15px solid #FFD166;
+}
+
+.box-materia .sigla{
+  font-weight: bold;
+}
+
+.box-materia .nome-materia{
+  font-weight: bold;
+}
+
+.linha{
+  border-bottom: 1px solid #CFCFCF;
+}
+
+.flex-centro{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.titulo-grafico{
+  font-weight: bold;
+  color: #707070;
+}
+
+.container-grafico{
+  width: 100%;
+  height: 15px;
+  border-radius: 50px;
+  background: #F0F0F0;
+}
+
+.container-grafico .grafico{
+  height: 15px;
+  border-radius: 50px;
+
+}
+
+.container-grafico .porcentagem_80{
+  width: 80%;
+  background: #B2E988;
+}
+
+.container-grafico .porcentagem_85{
+  width: 85%;
+  background: #B2E988;
+}
+
+.container-grafico .porcentagem_100{
+  width: 100%;
+  background: #4BAC00;
+}

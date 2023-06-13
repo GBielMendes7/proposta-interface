@@ -27,7 +27,7 @@ Iniciar
       <tr>
         <td class="conteudo_falta">{{ $item->sigla }}</td>
         <td class="conteudo_falta">{{ $item->nome }}</td>
-        <td class="conteudo_falta" data-value="{{ $item->nota->presenca }}">{{ $item->falta->presenca }}</td>
+        <td class="conteudo_falta" data-value="{{ $item->falta->presenca }}">{{ $item->falta->presenca }}</td>
         <td class="conteudo_falta">{{ $item->falta->falta }}</td>
         <td class="conteudo_falta"><span class="material-icons-outlined">school</span></td>
       </tr>

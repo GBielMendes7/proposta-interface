@@ -21,7 +21,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'materias_id',
     ];
+    public function materia(){
+        return $this->belongsTo(materia::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.
