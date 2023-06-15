@@ -49,10 +49,18 @@ Iniciar
             <div class="espaco20"></div>
 
             <div class="linha"></div>
+            
 
-            <p>Media Final(**): 0</p>
-            <p>Qtidade Faltas: {{ $item->materia->falta }}</p>
-            <p>% Frequencia: 0,00</p>
+            @php
+                $media = ($item->nota_p1 + $item->nota_p2) / 2;
+
+                $total = $item->falta->presenca + $item->falta->falta;
+                $frequencia = $total > 0 ? round(($item->falta->presenca / $total) * 100, 2) : 0;
+            @endphp
+
+        <p>Media Final(**): {{ $media }}</p>
+        <p>Qtidade Faltas: {{ $item->falta->falta }}</p>
+        <p>% Frequencia: {{ $frequencia }}</p>
         </article>
 
     @endforeach
@@ -66,7 +74,10 @@ Iniciar
     @foreach ($nota as $item)
     
     <div class="box-grafico">
-        <div class="titulo-grafico" data-value="80">{{ $item->materia->sigla }} {{ $item->materia->nome }} - 8,0</div>
+            @php
+                $media = ($item->nota_p1 + $item->nota_p2) / 2;
+            @endphp
+        <div class="titulo-grafico" data-value="{{ $media }}">{{ $item->materia->sigla }} {{ $item->materia->nome }} - {{ $media }}</div>
         <div class="container-grafico">
             <div class="grafico porcentagem_80"></div>
         </div>

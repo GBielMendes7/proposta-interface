@@ -151,7 +151,7 @@
 
                 <div class="row p2">
                     <div class="col">
-                        <p class="p2-data">16/04/2023</p>
+                        <p class="p2-data">15/06/2023</p>
                         <div class="professor-name">AGO005</div>
                         <p class="Materia-name">GESTÃO DE PROJETOS</p>
                         <p class="professor-name">Ana Carolina</p>
@@ -164,14 +164,14 @@
 
                 <div class="row mt-3 p2-2">
                     <div class="col">
-                        <p class="p2-data">16/04/2023</p>
+                        <p class="p2-data">15/05/2023</p>
                         <div class="professor-name">AGO005</div>
                         <p class="Materia-name">GESTÃO DE PROJETOS</p>
                         <p class="professor-name">Ana Carolina</p>
                     </div>
                     <div class="col Materia-time">
                         <p class="texto_p2">P2</p>
-                        <p>19:00 - 20:40</p>
+                        <p>20:50 - 22:30</p>
                     </div>
                 </div>
             </div>

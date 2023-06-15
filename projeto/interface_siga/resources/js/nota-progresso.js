@@ -1,3 +1,6 @@
+// Definir o valor máximo
+var maxValue = 10;
+
 // Obter todos os elementos que têm a classe "faltas"
 var faltas = document.querySelectorAll(".box-grafico");
 
@@ -12,9 +15,12 @@ for (var i = 0; i < faltas.length; i++) {
   // Obter o valor desse elemento e convertê-lo para um número inteiro
   var value = parseInt(progressValue.dataset.value);
 
+  // Calcular a porcentagem com base no valor máximo
+  var percentage = (value / maxValue) * 100;
+
   // Obter o elemento da barra de progresso
   var progressBar = falta.querySelector(".grafico");
 
   // Atualizar a largura da barra de progresso e o texto do valor
-  progressBar.style.width = value + "%";
+  progressBar.style.width = percentage + "%";
 }

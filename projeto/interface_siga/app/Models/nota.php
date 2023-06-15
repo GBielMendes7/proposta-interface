@@ -20,4 +20,8 @@ class nota extends Model
     public function user(){
         return $this->belongsTo(User::class);
     }
+    public function falta()
+    {
+        return $this->hasOne(Falta::class, 'materia_id', 'materia_id');
+    }
 }
